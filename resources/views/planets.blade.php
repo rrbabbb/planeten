@@ -7,8 +7,7 @@
 </head>
 <body>
     @foreach ($planets as $planet)
-        <h1>{{
-             $planet['name'] }}</h1>
+        <h1>{{$planet['name'] }}</h1>
         <p>{{ $planet['description'] }}</p>
     @endforeach
 </body>
